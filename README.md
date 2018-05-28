@@ -4,8 +4,11 @@ A sample of an Android app following an MVP architecture.
 
 The only functionality of this app is to log in into a dummy server (a valid account is "p1@gmail.com" pw: "qweasdzxc").
 
-Techonologies used:
+![screenshot](https://cdn.discordapp.com/attachments/420735220593983508/450649350599868417/unknown.png)
+
+What's used:
 - Kotlin
+- MVP pattern
 - Retrofit
 - Android Studio 3.1.2
 
