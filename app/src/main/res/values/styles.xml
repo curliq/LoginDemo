@@ -1,0 +1,58 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="ActivityTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorPrimaryDark">@color/colorDarkDarker</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+    </style>
+
+    <!--#########################-->
+    <!--#####  THEME VIEWS  #####-->
+    <!--#########################-->
+
+    <style name="ThemeButton">
+        <item name="android:layout_height">@dimen/themeButtonHeight</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/theme_button_background</item>
+        <item name="android:textAllCaps">@bool/themeButtonTextAllCaps</item>
+        <item name="android:textColor">@color/themeButtonEnabledText</item>
+        <item name="android:stateListAnimator">@drawable/theme_button_state_animator</item>
+    </style>
+
+    <style name="ThemeEditText">
+        <item name="android:layout_height">@dimen/themeEditTextHeight</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/themeEditTextTextSize</item>
+        <item name="android:background">@drawable/theme_edittext_background</item>
+        <item name="android:textColor">@color/themeEditTextEnabledText</item>
+        <item name="android:textColorHint">@color/themeEditTextEnabledHint</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+
+    <style name="ThemeTextTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/titleHeight</item>
+        <item name="android:textSize">@dimen/themeTextTitleSize</item>
+        <item name="android:textColor">@color/themeTextTitle</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ThemeLoadingIndicatorSmall">
+        <item name="android:layout_width">@dimen/themeLoadingIndicatorWidth</item>
+        <item name="android:layout_height">@dimen/themeLoadingIndicatorHeight</item>
+        <item name="indicatorName">@string/themeLoadingIndicatorName</item>
+        <item name="indicatorColor">@color/themeLoadingIndicatorColor</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">@dimen/themeLoadingIndicatorMarginRight</item>
+    </style>
+
+</resources>

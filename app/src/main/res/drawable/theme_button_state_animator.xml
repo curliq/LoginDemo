@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="true" android:state_pressed="true">
+        <set>
+            <objectAnimator
+                android:duration="@integer/enableDisableAnimationDuration"
+                android:propertyName="translationZ"
+                android:valueTo="@dimen/themeButtonPressedElevation"
+                android:valueType="floatType"/>
+            <objectAnimator
+                android:duration="@integer/enableDisableAnimationDuration"
+                android:propertyName="elevation"
+                android:valueTo="@dimen/themeButtonPressedElevation"
+                android:valueType="floatType"/>
+        </set>
+    </item>
+
+    <item android:state_enabled="true">
+        <set>
+            <objectAnimator
+                android:duration="@integer/enableDisableAnimationDuration"
+                android:propertyName="translationZ"
+                android:valueTo="@dimen/themeButtonEnabledElevation"
+                android:valueType="floatType"/>
+            <objectAnimator
+                android:duration="@integer/enableDisableAnimationDuration"
+                android:propertyName="elevation"
+                android:valueTo="@dimen/themeButtonEnabledElevation"
+                android:valueType="floatType"/>
+            <objectAnimator
+                android:duration="@integer/enableDisableAnimationDuration"
+                android:propertyName="alpha"
+                android:valueTo="1f"
+                android:valueType="floatType"/>
+        </set>
+    </item>
+
+    <item android:state_enabled="false">
+        <set>
+            <objectAnimator
+                android:duration="@integer/enableDisableAnimationDuration"
+                android:propertyName="translationZ"
+                android:valueTo="@dimen/themeButtonDisabledElevation"
+                android:valueType="floatType"/>
+            <objectAnimator
+                android:duration="@integer/enableDisableAnimationDuration"
+                android:propertyName="elevation"
+                android:valueTo="@dimen/themeButtonDisabledElevation"
+                android:valueType="floatType"/>
+            <objectAnimator
+                android:duration="@integer/enableDisableAnimationDuration"
+                android:propertyName="alpha"
+                android:valueTo="0.6f"
+                android:valueType="floatType"/>
+        </set>
+    </item>
+</selector>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Courty</string>
+
+    <!--#########################-->
+    <!--#####  THEME VIEWS  #####-->
+    <!--#########################-->
+
+    <!--Theme Loading Indicator-->
+    <!--https://github.com/81813780/AVLoadingIndicatorView for more-->
+    <string name="themeLoadingIndicatorName">BallClipRotatePulseIndicator</string>
+</resources>

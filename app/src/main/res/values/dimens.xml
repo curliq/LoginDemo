@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="statusBarHeight">24dp</dimen>
+    <dimen name="regularSideMargin">16dp</dimen>
+    <dimen name="titleHeight">56dp</dimen>
+
+    <!--#########################-->
+    <!--#####  THEME VIEWS  #####-->
+    <!--#########################-->
+
+    <!--Theme Button-->
+    <dimen name="themeButtonHeight">56dp</dimen>
+    <item  name="themeButtonWidth" format="float" type="dimen">0.65</item>
+    <dimen name="themeButtonHeightHalf">28dp</dimen>
+    <dimen name="themeButtonEnabledElevation">4dp</dimen>
+    <!--we use 0.1 because 0 makes the opacity mysteriously change-->
+    <dimen name="themeButtonDisabledElevation">0.1dp</dimen>
+    <dimen name="themeButtonPressedElevation">1dp</dimen>
+    <dimen name="themeButtonTextSize">14sp</dimen>
+
+    <!--Theme EditText-->
+    <dimen name="themeEditTextHeight">48dp</dimen>
+    <dimen name="themeEditTextHeightHalf">24dp</dimen>
+    <dimen name="themeEditTextPaddingLeftRight">16dp</dimen>
+    <dimen name="themeEditTextTextSize">14sp</dimen>
+    <dimen name="themeEditTextBorderWidth">1dp</dimen>
+
+    <!--Theme Texts-->
+    <dimen name="themeTextNormalSize">14sp</dimen>
+    <dimen name="themeTextDividerSize">12sp</dimen>
+    <dimen name="themeTextSemiTitleSize">16sp</dimen>
+    <dimen name="themeTextTitleSize">26sp</dimen>
+
+    <!--Theme Loading Indicator-->
+    <dimen name="themeLoadingIndicatorHeight">32dp</dimen>
+    <dimen name="themeLoadingIndicatorWidth">32dp</dimen>
+    <dimen name="themeLoadingIndicatorMarginRight">12dp</dimen>
+</resources>

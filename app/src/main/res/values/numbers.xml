@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="enableDisableAnimationDuration">200</integer>
+    <fraction name="enabledViewAlpha">100%</fraction>
+    <fraction name="disabledViewAlpha">60%</fraction>
+
+    <!--#########################-->
+    <!--#####  THEME VIEWS  #####-->
+    <!--#########################-->
+
+    <!--Theme Button-->
+    <integer name="themeButtonEnabledAlpha">255</integer>
+    <integer name="themeButtonDisabledAlpha">120</integer>
+
+</resources>

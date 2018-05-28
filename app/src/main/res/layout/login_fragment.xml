@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/ThemeTextTitle"
+        android:layout_marginLeft="@dimen/regularSideMargin"
+        android:text="Log In"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <EditText
+        android:id="@+id/loginFragment_et_email"
+        style="@style/ThemeEditText"
+        android:layout_marginLeft="@dimen/regularSideMargin"
+        android:layout_marginRight="@dimen/regularSideMargin"
+        android:layout_marginTop="24dp"
+        android:hint="Email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        />
+
+    <EditText
+        android:id="@+id/loginFragment_et_password"
+        style="@style/ThemeEditText"
+        android:layout_marginLeft="@dimen/regularSideMargin"
+        android:layout_marginRight="@dimen/regularSideMargin"
+        android:layout_marginTop="@dimen/regularSideMargin"
+        android:inputType="textPassword"
+        android:hint="Password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginFragment_et_email"/>
+
+    <johnsardinha.logindemo.utils.customviews.ThemeLoadingButton
+        android:id="@+id/loginFragment_btn_login"
+        android:layout_height="@dimen/themeButtonHeight"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="@dimen/themeButtonWidth"
+        android:layout_marginLeft="@dimen/regularSideMargin"
+        android:layout_marginRight="@dimen/regularSideMargin"
+        android:layout_marginTop="24dp"
+        app:text="Log In"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginFragment_et_password"/>
+
+</android.support.constraint.ConstraintLayout>

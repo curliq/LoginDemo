@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#377fa9</color>
+    <color name="colorDark">#1c2f38</color>
+    <color name="colorDarkDarker">#151e23</color>
+    <color name="colorDarkLighter">#2f5466</color>
+    <color name="colorWhiteGrey">#cdcdcd</color>
+    <color name="colorLink">#8bc34a</color>
+    <color name="colorErrorRed">#de6565</color>
+    <color name="colorWarningYellow">#edde93</color>
+    <color name="colorTouchedTransparency">#36ffffff</color>
+    <color name="colorTextDisabled">#747474</color>
+    <color name="colorBackground">@color/colorDark</color>
+
+    <!--#########################-->
+    <!--#####  THEME VIEWS  #####-->
+    <!--#########################-->
+
+    <!--Theme Button-->
+    <color name="themeButtonEnabledText">#ffffff</color>
+    <color name="themeButtonEnabledBackground">@color/colorPrimary</color>
+
+    <!--Theme EditText-->
+    <color name="themeEditTextEnabledBackground">@color/colorDarkLighter</color>
+    <color name="themeEditTextDisabledBackground">#284654</color>
+    <color name="themeEditTextEnabledBorder">#1d1a1b</color>
+    <color name="themeEditTextDisabledBorder">#00ffffff</color>
+    <color name="themeEditTextEnabledText">@color/colorWhiteGrey</color>
+    <color name="themeEditTextDisabledText">@color/colorWhiteGrey</color>
+    <color name="themeEditTextEnabledHint">#969696</color>
+    <color name="themeEditTextDisabledHint">#737373</color>
+
+    <!--Theme Texts-->
+    <color name="themeTextTitle">#ffffff</color>
+
+    <!--Theme Loading Indicator-->
+    <color name="themeLoadingIndicatorColor">#ffffff</color>
+
+</resources>
