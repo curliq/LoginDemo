@@ -11,4 +11,6 @@ Techonologies used:
 
 The purpose of this project is to suggest and expose a simple way to organize and structure an Android app with an efficient approach to SoC and code reusability.
 
+[APK for convinience](https://cdn.discordapp.com/attachments/420735220593983508/450646851423830016/app-debug.apk)
+
 ###### Note: you might find unused functions and variables as this is just a piece extracted from an ongoing project
